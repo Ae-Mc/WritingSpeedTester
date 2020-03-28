@@ -1,0 +1,67 @@
+All tests used 1Gib file.
+
+4 tests:
+1KB average: 2404090.0 ticks
+4KB average: 2178840.5 ticks
+8KB average: 2190341.5 ticks
+16KB average: 2203973.0 ticks
+
+4 tests:
+1KB average: 2.4498525 s
+4KB average: 2.20788875 s
+8KB average: 2.14402525 s
+16KB average: 2.18388725 s
+
+4 tests:
+1KB average: 2.30467025 s
+4KB average: 2.210229 s
+8KB average: 2.090792 s
+16KB average: 2.1667545 s
+4Mib average: 2.275392 s
+
+10 tests:
+1KB average: 2.5186658 s
+1KB average speed: 406.5644596436733 Mib/s
+4KB average: 2.3043713 s
+4KB average speed: 444.37283175675725 Mib/s
+8KB average: 2.288301 s
+8KB average speed: 447.49357711245153 Mib/s
+16KB average: 2.2657403 s
+16KB average speed: 451.9494136199105 Mib/s
+4Mib average: 2.3403512 s
+4Mib average speed: 437.5411690348012 Mib/s
+
+Pocophone F1, Android 9, (tests repeats 10):
+    1KB (filesize: 1024.0 Mib, blocksize: 1.0 Kib)
+		average speed: 2.427292 Mib/s
+		average time: 421.8693 s
+	4KB (filesize: 1024.0 Mib, blocksize: 4.0 Kib)
+		average speed: 2.1745 Mib/s
+		average time: 470.9128 s
+	8KB (filesize: 1024.0 Mib, blocksize: 8.0 Kib)
+		average speed: 2.127137 Mib/s
+		average time: 481.3981 s
+	16KB (filesize: 1024.0 Mib, blocksize: 16.0 Kib)
+		average speed: 2.150294 Mib/s
+		average time: 476.214 s
+	4MB (filesize: 1024.0 Mib, blocksize: 4096.0 Kib)
+		average speed: 2.357889 Mib/s
+		average time: 434.2868 s
+
+aarch64 Linux #1 SMP PREEMPT Mon Oct 21 23:40:39 WIB 2019, (tests repeats 10):
+	1KB (filesize: 1024.0 Mib, blocksize: 1.0 Kib)
+		average speed: 2.399419 Mib/s
+		average time: 426.7699 s
+	4KB (filesize: 1024.0 Mib, blocksize: 4.0 Kib)
+		average speed: 2.124861 Mib/s
+		average time: 481.914 s
+	8KB (filesize: 1024.0 Mib, blocksize: 8.0 Kib)
+		average speed: 2.129198 Mib/s
+		average time: 480.9323 s
+	16KB (filesize: 1024.0 Mib, blocksize: 16.0 Kib)
+		average speed: 2.149152 Mib/s
+		average time: 476.467 s
+	4MB (filesize: 1024.0 Mib, blocksize: 4096.0 Kib)
+		average speed: 2.291886 Mib/s
+		average time: 446.7935 s
+
